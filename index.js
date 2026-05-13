@@ -15,8 +15,11 @@ if(value == false){
 //Part 1.3
 
 for(var i=0 ; i<=10 ; i++){
-    if(i%2!==0) {
-         console.log(i);    
+    if(i%2==0) {
+         continue  
+    }else{
+        console.log(i);
+        
     }
 }
 // *********************************** // 
