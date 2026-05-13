@@ -68,6 +68,19 @@ if(element % 2 ==0){
   }
     // *********************************** // 
 
+    //Part 1.7 
+
+let arrOfStr = ["a","ab","abc"]
+let newArr = arrOfStr.map(function(element){
+return element.length
+})
+console.log(newArr);
+    // *********************************** // 
+    
+
+
+
+
 
 
 
