@@ -21,6 +21,17 @@ for(var i=0 ; i<=10 ; i++){
 }
 // *********************************** // 
 
+//Part 1.4
+
+let arr = [1,2,3,4,5]
+let myarr = arr.filter(function(element){
+if(element % 2 ==0){
+    return element
+}
+})
+ console.log(myarr);
+ // *********************************** // 
+
 
 
 
