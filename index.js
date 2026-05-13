@@ -79,6 +79,18 @@ return element.length
 })
 console.log(newArr);
     // *********************************** // 
+
+    //Part 1.8 
+
+function chkDiv (num){
+     if(num%3==0 && num%5==0)
+           return "Divisible by both";     
+    }
+console.log(chkDiv(15));
+     
+    // *********************************** // 
+
+
     
 
 
