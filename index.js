@@ -90,6 +90,18 @@ console.log(chkDiv(15));
      
     // *********************************** // 
 
+    // Part 1.9
+
+let square = (x) => {
+    let result = x * x 
+    return result
+    }
+console.log(square(5));
+
+    // *********************************** // 
+
+    
+
 
     
 
