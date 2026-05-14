@@ -100,7 +100,19 @@ console.log(square(5));
 
     // *********************************** // 
 
+     //Part 1.10
+
+function Destruct (){
+    let Person = {
+        name : "John",
+        age : 25
+    }
+    let {name , age} = Person
+  return console.log(`${name} is ${age} years old`);
+}
+Destruct()
     
+    // *********************************** // 
 
 
     
