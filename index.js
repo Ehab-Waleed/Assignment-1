@@ -124,6 +124,18 @@ console.log(sum(1,2,3,4,5));
 
     // *********************************** // 
 
+    // Part 1.12
+let messageFunction = () => {
+   return new Promise (function(resolve, reject){
+        setTimeout(() => {
+            console.log("Success");
+            resolve()   
+        },3000)
+    })
+}
+messageFunction()
+
+    // *********************************** //
 
 
     
