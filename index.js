@@ -114,6 +114,17 @@ Destruct()
     
     // *********************************** // 
 
+    //Part 1.11
+
+let sum = (...numbers) => {
+    return numbers.reduce((prevValue, currValue) =>  prevValue + currValue)
+}
+console.log(sum(1,2,3,4,5));
+    
+
+    // *********************************** // 
+
+
 
     
 
