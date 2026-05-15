@@ -137,6 +137,21 @@ messageFunction()
 
     // *********************************** //
 
+    //Part 1.13
+
+    let findLargNum = (...numbers) => {
+        let largest = numbers[0]
+        for(i=0 ; i < numbers.length ; i++){
+            if (numbers[i] > largest)
+                largest = numbers[i]
+        }
+      return console.log(largest);
+    }
+findLargNum(100,300,700,200,400)
+
+    // *********************************** //
+    
+
 
     
 
