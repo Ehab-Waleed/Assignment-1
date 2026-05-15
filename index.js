@@ -102,15 +102,15 @@ console.log(square(5));
 
      //Part 1.10
 
-function Destruct (){
-    let Person = {
-        name : "John",
-        age : 25
-    }
-    let {name , age} = Person
-  return console.log(`${name} is ${age} years old`);
+let Person = {
+     name : "John",
+     age : 25
 }
-Destruct()
+function Destruct (P){  
+    let {name , age} = P
+    return console.log(`${name} is ${age} years old`);
+}
+Destruct(Person)
     
     // *********************************** // 
 
@@ -150,7 +150,7 @@ messageFunction()
 findLargNum(100,300,700,200,400)
 
     // *********************************** //
-    
+ 
 
 
     
