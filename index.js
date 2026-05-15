@@ -150,7 +150,20 @@ messageFunction()
 findLargNum(100,300,700,200,400)
 
     // *********************************** //
- 
+
+    //Part 1.14 
+
+let Person2 = {
+     name : "John",
+     age : 30
+}
+let returnKeys = (Per) => {
+    return console.log(Object.keys(Per)); 
+}
+returnKeys(Person2)
+
+    // *********************************** //
+
 
 
     
