@@ -164,8 +164,16 @@ returnKeys(Person2)
 
     // *********************************** //
 
+    //Part 1.15
 
+let Words = "The quick brown fox"
+let splitStr = (s) =>{
+    let arrOfStr = s.split(" ")
+    return console.log(arrOfStr);
+}
+splitStr(Words)
 
+    // *********************************** //   
     
 
 
